@@ -24,6 +24,6 @@ def intersection(s, t):
 
 # Test
 print(intersection('programme', 'grammaire')) # retourne 'gramm'
-print(intersection('bbaacc', 'aabb')) # Retourne 'bb' (Sous-chaine d'indice minimal
+print(intersection('bbaacc', 'aabb')) # Retourne 'bb'
 print(intersection('salut', 'merci')) # Retourne '' (vide)
-print(intersection('merci', 'adieu')) # Retourne 'e'
+print(intersection('merci', 'adieu')) # Retourne 'e' (Sous-chaine d'indice minimal)
